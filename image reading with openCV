@@ -1,0 +1,7 @@
+import cv2 as cv
+
+img = cv.imread('C:\\Users\\user\\Desktop\\OpenCV\photos\\car.jpg')
+
+cv.imshow('car', img)
+
+cv.waitKey(7000)
